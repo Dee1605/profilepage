@@ -1,0 +1,168 @@
+/*  */
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* B */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(45deg,#61c2fb,#3c50ff);
+}
+/* C */
+#card{
+    position: relative;
+    width: 350px;
+    height: 190px;
+    background: #fff;
+    border-radius: 20px;
+    transition:0.5s ;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+#card:hover{
+    height: 500px;
+}
+#card:hover #Imgbx{
+    width: 250px;
+    position: abs;
+    height: 250px;
+}
+#card #content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: flex-end;
+}
+#card #content #details{
+    padding: 40px;
+    /* text-align: center; */
+    width: 100%;
+    transition: 0.5s;
+    transform:translateY(200px);
+}
+
+#card:hover #content #details{
+    transform: translateY(0px);
+}
+
+#card #content #details h2{
+    font-size: 1.25en;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+}
+
+#card #content #details h2 span{
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
+
+
+}
+#card #content #details #data{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#card #content #details #data h3{
+    font-size: 1em;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+
+}
+#card #content #details #data h3 span{
+    font-size: 0.85em;
+    font-weight: 400;
+    opacity: 0.5;
+}
+#card #content #details #actionBtn h3{
+    color: #555;
+}
+#card #content #details #actionBtn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+#card #content #details #actionBtn button{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #3c50ff;
+    color: #fff;
+    cursor: pointer;
+}
+#card #content #details #actionBtn button:nth-child(2){
+    border: 1px solid #999;
+    color: #999;
+    background: #fff;
+
+}
+#change a{
+    margin-right: 9rem;
+    color: #3c50ff;
+    text-decoration: none;
+    /* padding-top: 2rem; */
+}
+
+/* I */
+#Imgbx{
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 70px;
+    transition: 0.5s;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+    
+    
+}
+#Imgbx img{
+    position: absolute;
+    border-radius: 70px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* J */
+/* K */
+/* L */
+/* M */
+/* N */
+/* O */
+/* P */
+/* Q */
+/* R */
+/* S */
+/* T */
+/* U */
+/* V */
+/* W */
+/* X */
+/* Y */
+/* Z */
